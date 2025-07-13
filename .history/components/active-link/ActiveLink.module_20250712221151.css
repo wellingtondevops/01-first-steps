@@ -1,0 +1,16 @@
+
+
+.link {
+    text-decoration: none;
+    margin-right: 0.5rem;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #60a5fa; /* Tailwind's blue-400 */
+}
+
+.active-link {
+    color: #3b82f6; /* Tailwind's blue-500 */
+}
